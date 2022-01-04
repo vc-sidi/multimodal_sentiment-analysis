@@ -7,9 +7,10 @@
       - raw_tweets_text.csv (414MB): contains id and text of all the collected ~3.4 M tweets
      
 - TO DO:
-  - Replicar Artigo Base https://ieeexplore.ieee.org/document/9303676 - Deep Learning approach for text, image, and GIF multimodal sentiment analysis;
   - Definir problema:
-      1. Utilizar Deep Fusion para um classificador de sentiment polarity?
-      2. Utilizar o Deep Fusion em conjunto com classificador individual de texto e imagem para depois fazer um ensemble?
-      3. Coloque aqui sua ideia.
-  - Escrita da especificação até dia até dia 30/12/2021.
+      1. Utilizar o Deep Fusion em conjunto com classificador individual de texto e imagem para depois fazer um ensemble
+  - [x] Escrita da especificação até dia até dia 30/12/2021.
+  - [ ] Filtragem da base de imanges:
+    - [ ] Determinar tamannho da imagens;
+    - [ ] Criar novo dataset balancedo.
+  - [ ] Reutilizar implementação do VADER;
