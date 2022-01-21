@@ -14,3 +14,17 @@
     - [ ] Determinar tamannho da imagens;
     - [ ] Criar novo dataset balancedo.
   - [ ] Reutilizar implementação do VADER;
+
+
+# Running Environment
+
+- CUDA
+
+nvcc: NVIDIA (R) Cuda compiler driver
+Cuda compilation tools, release 11.5, V11.5.50
+Build cuda_11.5.r11.5/compiler.30411180_0
+
+- cuDNN
+v8.2.2.26
+Download cuDNN v8.2.2 (July 6th, 2021), for CUDA 11.4
+https://developer.nvidia.com/rdp/cudnn-archive#a-collapse822-114
